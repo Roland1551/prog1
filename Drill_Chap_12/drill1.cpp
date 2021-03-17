@@ -4,13 +4,12 @@
 #include "Graph.h" // get access to our graphics library facilities
 
 int main()
-try
 {
 using namespace Graph_lib; // our graphics facilities are in Graph_lib
 
 Point kezdo {150, 150};
 
-Simple_window win {Point(kezdo),600,400,"My Window"};
+Simple_window win {kezdo, 600, 400, "My Window"};
 
 Axis xt {Axis::x, Point{50, 270}, 230, 10, "x Tengely"};
 Axis yt {Axis::y, Point{50, 270}, 200, 10, "y Tengely"};
@@ -71,8 +70,4 @@ win.attach(elipszis);
 win.set_label("My second window");
 win.wait_for_button();
 
-}
-catch(exception& e) {
-	cout << "Error"<< endl;
-	return 1;
 }
