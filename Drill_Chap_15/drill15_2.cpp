@@ -8,7 +8,7 @@ struct Person
 		int age;
 
 	public:
-			Person(){};
+	
 
 			//constructor
 			Person(string aFirstName,string aSecondName , int aAge)
@@ -90,8 +90,6 @@ ostream& operator<< (ostream& ou, Person& data)
 
 int main()
 {
-using namespace Graph_lib; // our graphics facilities are in Graph_lib
-
 /*
 Person p1;
 
