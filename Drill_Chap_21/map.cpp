@@ -6,16 +6,16 @@ using namespace std;
 
 void fill(map<string, int>& msi)
 {
-    msi["Cherry"]=7;
-    msi["Mushroom"]=3;
-    msi["Cake"]=0;
-    msi["Teriyaki"]=4;
-    msi["Chicken"]=1;
-    msi["Ice Tea"]=9;
-    msi["Hearthstone"]=2;
-    msi["Frog"]=6;
-    msi["Monstera"]=8;
-    msi["Succulent"]=5;
+    msi["E46"]=7;
+    msi["Civic"]=3;
+    msi["Octavia"]=0;
+    msi["Accord"]=4;
+    msi["Fabia"]=1;
+    msi["A4"]=9;
+    msi["Mazda6"]=2;
+    msi["Swift"]=6;
+    msi["C200"]=8;
+    msi["Multipla"]=5;
 }
 
 template <typename frst, typename snd>
