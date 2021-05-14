@@ -88,8 +88,8 @@ int main()
     vi.insert(vi.begin(), insert1);
     vi.insert(vi.begin(), insert2);
 
-    vi.erase(find_if(vi.begin(), vi.end(), find_by_name("Earphones")));
-    vi.erase(find_if(vi.begin(), vi.end(), find_by_name("Calculator")));
+    vi.erase(find_if(vi.begin(), vi.end(), find_by_name("Civic")));
+    vi.erase(find_if(vi.begin(), vi.end(), find_by_name("Octavia")));
 
     vi.erase(find_if(vi.begin(), vi.end(), find_by_iid(99)));
     vi.erase(find_if(vi.begin(), vi.end(), find_by_iid(9988)));
